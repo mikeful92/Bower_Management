@@ -15,24 +15,46 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
             body {
-                background-color: #55728E;
+                background-color: #3a4146;
             }
             .main{
+                background-color: #477291;
                 padding-top: 126px;
-                min-height: 100vh;
-                border-left: solid #3c3c3c 50px;
-                border-right: solid #3c3c3c 50px;
-            }
-            .navbar{
-                margin-top: 75px;
+                min-height: 500px;
             }
             .core{
-                color: white;
+                padding: 100px 0px;
+                color: #ffffff;
                 text-align: center;
             }
-            .header{
-                
+            h1{
+                font-size: 550%;
             }
+            .navbar-custom {
+                margin-top: 75px;
+                background-color:#3a4146;
+                color:#ffffff;
+                border-radius:0;
+            }
+            .navbar-custom .navbar-nav > li > a {
+                color:#fff;
+            }
+            .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+                color: #ffffff;
+                background-color:transparent;
+            }
+            .navbar-custom .navbar-brand {
+                color:#eeeeee;
+            }
+            .separator{
+                min-height: 55px;
+                background-color: #3a4146;
+            }
+            .bottom{
+                color: #ffffff;
+                padding: 50px 50px;
+            }
+
     </style>
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -43,12 +65,12 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">BOWER</a>
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
             </div><!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -70,6 +92,14 @@
                 <h1>BMI</h1>
                 <h2>Bower Management Incorporated</h2>
         </div>
+    
+    <div class="row separator">
+        
+    </div>
+    <div class="row bottom">
+        <h2>General Contractor</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dui a ipsum malesuada tincidunt quis nec enim. Nulla facilisi. Nulla facilisi. Quisque malesuada dolor sed erat consectetur mollis. Integer hendrerit consequat turpis. Aliquam commodo mauris massa, hendrerit volutpat sapien tempor vitae. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc sagittis nibh purus, nec volutpat arcu vehicula non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lobortis imperdiet risus, in fermentum arcu. Integer mattis at dolor eu elementum.</p>
+    </div>
     </div><!-- /container -->
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
